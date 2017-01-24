@@ -4,7 +4,7 @@
     color: #eee8d5;
     font-family: "Courier New", Courier, monospace;
     list-style: none;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 *:hover {
@@ -60,6 +60,13 @@ header p {
     animation: unpop 0.2s ease-in;
     width: 16%;
     padding: 0.5em;
+}
+
+header ul li: hover {
+    font-size: 1.2em;
+    margin-left: 1.2em;
+    animation: pop 0.2s ease-in;
+    cursor: pointer;  
 }
 
 header p:hover {
@@ -157,71 +164,12 @@ footer {
     align-content: center;
 }
 
-.spriteShowcase {
-    animation: spriteDemphasize 0.2s linear;
-    width: 270x; 
-    height: 160px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.spriteShowcase:hover {
-    animation: spriteEmphasize 0.2s linear;
-    width: 290px;
-}
-
-@keyframes spriteEmphasize {
-    0%   { width: 270px; }
-    100% { width: 290px; }
-}
-
-@keyframes spriteDemphasize {
-    0%   { width: 290px; }
-    100% { width: 270px; }
-}
-
-#musicPlayer {
-    background-color: #202020;
-}
-
-#sign-up {
-    padding: 1em;
+.ryansLink {
+    margin: auto;
+    width: 15%;
     text-align: center;
 }
 
-input {
-    margin: 1em;
-}
-
-.textField {
-    background-color: #eee8d5;
-    color: #202020;
-    padding: 0.32em;
-}
-
-.textField:hover {
-    cursor:text;
-}
-
-#submitButton {
-    animation: demphasize 0.2s linear;
-    background-color: #202020;
-    border: none;
-    color: #eee8d5;
-    padding: 10px 30px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 0.5em;
-}
-
-#submitButton:hover {
-    animation: demphasize 0.2s linear;
-    background-color: #191919;
-    cursor: pointer;
-}
-
-#supportLink:hover {
+.ryansLink:hover {
     cursor: pointer;
 }
