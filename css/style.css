@@ -45,6 +45,10 @@ p {
     font-size: 0.8em;
 }
 
+a:hover {
+    cursor: pointer;
+}
+
 header {
     background: rgba(50, 50, 50, 0.0);
     text-align: left;
